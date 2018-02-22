@@ -122,11 +122,16 @@ hr.black{
 	background-color: inherit;
 }
 
+br{
+	line-height: 
+}
+
 h1,h2,h3,h4{
 	color: white;
 	text-transform: capitalize;
 	text-align: center;
-	margin-bottom: 15px;
+	margin-bottom: 0;
+	
 }
 
 h1,h3{
