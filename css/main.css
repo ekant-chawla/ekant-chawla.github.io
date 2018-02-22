@@ -78,7 +78,7 @@ body{
 
 
 .social-icon-container{
-	text-align: center;
+	text-align: right;
 	padding-right: 0;
 }
 
@@ -234,10 +234,18 @@ textarea{
 	h2{
 		font-size: 1.2em;
 	}
+	
+	.social-icon-container{
+		margin: auto;
+	}
+}
+
+
+@media only screen and (max-width: 575px){
 	.info, .social{
 		text-align: center;
 	}
 	.social-icon-container{
-		margin: auto;
+		text-align: center;
 	}
 }
