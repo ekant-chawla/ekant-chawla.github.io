@@ -86,6 +86,9 @@ body{
 #db:hover{
 	color: #980c0c;
 }
+#aws:hover{
+	color:orange;
+}
 
 
 hr{
@@ -141,8 +144,6 @@ div{
 	padding: 10px;
 }
 
-
-
 a{
 	text-decoration: none;
 	font-family: inherit;
@@ -154,8 +155,8 @@ a{
 }
 
 .card{
-	width: 30%;
-	margin:0 auto 25px;	
+	width: 28%;
+	margin-top: 1.5rem;
 }
 
 .card-img{
@@ -171,6 +172,7 @@ a{
 	flex-direction: row;
 	flex-wrap: wrap;
 	padding: 0;	
+	justify-content: space-around;
 }
 
 .form-row{
@@ -180,11 +182,14 @@ a{
 
 .project-box{
 	box-shadow: 0px 0px 10px 1px black;
+	transition: all 0.3s;
 }
 
 .project-box:hover{
 	box-shadow: 4px 8px 13px 5px black;
 	cursor: pointer;
+	transform: scale(1.05);
+	
 }
 
 .form-field{
@@ -310,7 +315,7 @@ textarea#message{
 }
 
 
-@media screen and (max-width: 768px){
+@media only screen and (max-width: 768px){
 
 	.skill-container{
 		width: 25%;
